@@ -1,0 +1,16 @@
+@keyframes moveX {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(100px); /* Adjust the distance as needed */
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .logo {
+    animation: moveX 2s infinite; /* Adjust the duration as needed */
+  }
+  
